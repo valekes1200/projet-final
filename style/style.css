@@ -22,13 +22,9 @@ h1{
 }
 .highlight{
     color: #19d59d;
-    font-family: monstyle;
 
 }
-@font-face{
-    font-family: monstyle;
-    src: url("/font/Montserrat/Montserrat-VariableFont_wght.ttf");
-}
+
 .grid-item{
     text-align: center;
     color: white;
@@ -40,4 +36,33 @@ h1{
 #img1{
         width :  90px;
         height : 90px;
+}
+p{
+    color: white;
+}
+
+.categories {
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap; 
+    margin-bottom: 20px;
+}
+.category {
+    background-color: black;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    flex: 1 1 150px; 
+    transition: background-color 0.3s;
+    color:  white;
+}
+.category:hover {
+    background-color: green; 
+    color: white; 
+}
+a {
+    text-decoration: none;
+    color: inherit; 
 }
