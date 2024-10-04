@@ -1,0 +1,29 @@
+footer{
+    text-align: center;
+}
+main{
+    width: 90vw;
+    height: 90vh;
+    margin: auto;
+    
+}
+body{
+    background-color:rgba(4,24,33,255);
+
+}
+header{
+    color: white;
+    text-align: center;
+}
+h1{
+    color: white;
+}
+.highlight{
+    color: #19d59d;
+    font-family: monstyle;
+
+}
+@font-face{
+    font-family: monstyle;
+    src: url("/font/Montserrat/Montserrat-VariableFont_wght.ttf");
+}
