@@ -1,5 +1,6 @@
 footer{
     text-align: center;
+    color: white;
 }
 main{
     width: 90vw;
@@ -37,5 +38,6 @@ h1{
     padding:10px;
 }
 #img1{
-    
+        width :  100px;
+        height : 100px;
 }
