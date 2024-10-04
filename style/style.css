@@ -14,6 +14,7 @@ body{
 header{
     color: white;
     text-align: center;
+    font-size: 30px;
 }
 h1{
     color: white;
@@ -26,4 +27,15 @@ h1{
 @font-face{
     font-family: monstyle;
     src: url("/font/Montserrat/Montserrat-VariableFont_wght.ttf");
+}
+.grid-item{
+    text-align: center;
+    color: white;
+}
+
+#icones{
+    padding:10px;
+}
+#img1{
+    
 }
