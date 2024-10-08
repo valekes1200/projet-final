@@ -42,33 +42,6 @@ main #main-text {
   flex-wrap: wrap;
 }
 
-main #parentprest {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.parent-main-text,
-main #parentprest,
-.menu-parent {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-main ul {
-  display: flex;
-  flex-wrap: wrap;
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  color: white;
-  font-size: var(--font-size-small);
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-}
-
 main li {
   margin-right: 35px;
   text-align: center;
@@ -90,12 +63,12 @@ main li {
 
 .div2 {
   text-align: right;
-  margin-top: 16px;
+  margin-top: 30px;
 }
 
 .div2 i {
   margin-left: 25px;
-  font-size: var(--font-size-medium);
+  font-size: 20px;
 }
 
 #highlight{
@@ -141,28 +114,24 @@ footer {
     text-align: center;
     margin-bottom: 30px;
     padding-right: 32px;
-    margin-top: 0;
+    margin-top: 20px;
   }
 
   main h1 {
     font-size: 28px;
   }
   #retour{
-    padding: 100px;
+    padding: 10px;
   }
 
   .div1 #point {
     font-size: 40px;
   }
 
-  main {
-    padding-top: 50px;
-    padding-left: 10px;
-    padding-right: 15px;
-  }
+  
 
   main li {
-    margin-right: 15px;
+    margin-right: 20px;
   }
 
   main #main-text {
@@ -173,6 +142,7 @@ footer {
 
   .grid img:nth-child(n + 10) {  display: none; }
   .grid img {
+    text-align: center;
     width: 90px;
     height: 90px;
   }
@@ -180,7 +150,7 @@ footer {
 
 
 
-@media (min-width: 641px) and (max-width: 1024px) {
+@media (min-width: 641px) and (max-width: 1023px) {
   
     body {
     padding-left: 0px;
@@ -213,7 +183,7 @@ footer {
     font-size: 50px;
   }
 #retour{
-    padding: 150px;
+    padding: 100px;
 }
   main {
     padding-top: 45px;
@@ -228,15 +198,6 @@ footer {
 
   main p {
     font-size: px;
-  }
-
-  main #presentation {
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    margin-bottom: 10px;
   }
 
   main #main-text {
@@ -267,7 +228,58 @@ li{
 }
 }
 
-@media (min-width: 1025px) {
+@media (min-width: 1024px) and (max-width: 1439px) {
+  header {
+    padding: 4px 32px;
+  }
+
+  .div1 #point {
+    font-size: 20px;
+  }
+
+  .div2 {
+    margin-top: 5px;
+  }
+
+  main {
+    padding-top: 30px;
+    padding-left: 85px;
+    padding-right: 85px;
+  }
+  main h1{
+   font-size: 40px;
+  }
+  #retour2{
+    padding: 150px;
+}
+  main ul {
+    margin-left: 32px;
+    font-size: 13px;
+  }
+
+  #main-text {
+    width: 80%;
+  }
+  .menu{
+    text-align: center;
+  }
+
+  li{
+    display: inline;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    padding: 3px 10px;
+}
+  .inline-green {
+  background-color: #1ece9a;
+}
+  .grid img {
+    max-width: 200px;
+    height: 200px;
+  }
+}
+@media (min-width: 1440px){
   header {
     padding: 4px 32px;
   }
@@ -295,16 +307,6 @@ li{
     margin-left: 32px;
     font-size: 13px;
   }
-
-  main #presentation {
-    width: 805px;
-    height: auto;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    margin-bottom: 10px;
-  }
-
   #main-text {
     width: 55%;
   }
