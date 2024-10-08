@@ -58,7 +58,7 @@ main li {
 
 .div1 #point {
   color: #1ece9a;
-  font-size: var(--font-size-large);
+  font-size: 15px;
 }
 
 .div2 {
@@ -196,9 +196,6 @@ footer {
     margin-right: 20px;
   }
 
-  main p {
-    font-size: px;
-  }
 
   main #main-text {
     font-size: 15px;
