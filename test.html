@@ -3,55 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
-    <title>Catégories Alignées</title>
+    <title>Exemple de div inline</title>
     <style>
-        body {
-            font-family: 'Montserrat', sans-serif;
-            margin: 0;
-            padding: 20px;
-            background-color: #f9f9f9;
-        }
-        h1 {
-            text-align: center;
-        }
-        .categories {
-            display: flex;
-            justify-content: center; /* Centre les catégories horizontalement */
-            flex-wrap: wrap; /* Permet aux catégories de passer à la ligne si l'espace est insuffisant */
-            margin-bottom: 20px;
-            
-        }
-        .category {
-            background-color: black;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-            margin: 10px;
-            padding: 15px;
-            text-align: center;
-            flex: 1 1 150px; /* Permet aux éléments de s'ajuster et de prendre un minimum de 150px */
-            transition: background-color 0.3s;
-            color:  white;
-        }
-        .category:hover {
-            background-color: green; /* Change la couleur de fond au survol */
-            color: white; /* Change la couleur du texte au survol */
-        }
-        a {
-            text-decoration: none; /* Enlève le soulignement des liens */
-            color: inherit; /* Prend la couleur du parent */
+        .cellule {
+            display: inline-block;
+            padding: 10px;
+            border: 1px solid #000;
+            margin: 5px;
         }
     </style>
 </head>
 <body>
-    <h1>Mes Catégories</h1>
-
-    <div class="categories">
-        <div class="category"><a href="#">Nature</a></div>
-        <div class="category"><a href="#">Portrait</a></div>
-        <div class="category"><a href="#">Art</a></div>
-        <div class="category"><a href="#">Urbain</a></div>
-        <div class="category"><a href="#">Animaux</a></div>
-    </div>
+    <div class="cellule">Cellule 1</div>
+    <div class="cellule">Cellule 2</div>
+    <div class="cellule">Cellule 3</div>
 </body>
 </html>
+<div class="grid">
+    <img  src="https://picsum.photos/200/200?random=1" alt="Image 1">
+    <img  src="https://picsum.photos/200/200?random=2" alt="Image 2">
+    <img  src="https://picsum.photos/200/200?random=3" alt="Image 3">
+    <img  src="https://picsum.photos/200/200?random=4" alt="Image 4">
+    <img  src="https://picsum.photos/200/200?random=5" alt="Image 5">
+    <img  src="https://picsum.photos/200/200?random=6" alt="Image 6">
+    <img  src="https://picsum.photos/200/200?random=7" alt="Image 7">
+    <img  src="https://picsum.photos/200/200?random=8" alt="Image 8">
+    <img  src="https://picsum.photos/200/200?random=9" alt="Image 9">
+    <img  src="https://picsum.photos/200/200?random=10" alt="Image 10">
+    <img  src="https://picsum.photos/200/200?random=11" alt="Image 11">
+    <img  src="https://picsum.photos/200/200?random=12" alt="Image 12">
+    <img  src="https://picsum.photos/200/200?random=13" alt="Image 13">
+    <img  src="https://picsum.photos/200/200?random=14" alt="Image 14">
+    <img  src="https://picsum.photos/200/200?random=15" alt="Image 15">
+</div>
+
+--couleur-fond: #041821;
+--couleur-texte: white;
+--couleur-main-text: #64777f;
+--couleur-surlignage: #3d917a;
+--couleur-fond2: #1ece9a;
+-font-size-small: 10px;
+--font-size-medium: 20;
+--font-size-large: 24px;-
+--font-size-llarge: 37px;
+
+<p>Lorem ipsum dolor si amet, consecteur adipiscing elit. Ut quis augue magna. Fusce fringilla purus et sapien euismod ullamcorper. In lorem tellus, sollicitudin in feugiat sed, sodales vel leo.</p><br>
